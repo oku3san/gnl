@@ -7,9 +7,9 @@ import (
 
 func main() {
     // コマンドライン引数をパースする
-    str := flag.String("string", "", "description")
+    opt := flag.String("opt", "", "option")
     flag.Parse()
-    fmt.Println(*str)
+    fmt.Println(*opt)
 
     //command := exec.Command("git", "add", "-A")
     //command.Stdout = os.Stdout
