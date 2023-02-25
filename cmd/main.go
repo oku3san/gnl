@@ -7,7 +7,7 @@ import (
 
 func main() {
     // コマンドライン引数をパースする
-    opt := flag.String("opt", "", "option")
+    opt := flag.String("opt", "", "option setting")
     flag.Parse()
     fmt.Println(*opt)
 
